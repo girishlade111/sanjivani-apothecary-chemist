@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B5D57" />
+      <stop offset="100%" stop-color="#073B37" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A59" />
+      <stop offset="100%" stop-color="#FF9F85" />
+    </linearGradient>
+    <linearGradient id="mintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DFF5EC" />
+      <stop offset="100%" stop-color="#A8D5BA" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="128" fill="url(#tealGrad)" />
+  
+  <!-- Subtle circular aura -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#DFF5EC" stroke-width="3" stroke-dasharray="8 8" opacity="0.4" />
+  
+  <!-- Pharmacy Cross Base -->
+  <g transform="translate(256, 256)">
+    <!-- Cross vertical and horizontal -->
+    <rect x="-34" y="-120" width="68" height="240" rx="34" fill="#FFFFFF" />
+    <rect x="-120" y="-34" width="240" height="68" rx="34" fill="#FFFFFF" />
+    
+    <!-- Heart & Healing Pulse at center -->
+    <circle cx="0" cy="0" r="46" fill="#0B5D57" />
+    
+    <!-- Botanical Leaf Embellishment -->
+    <path d="M-10,-10 C-10,-35 25,-40 35,-15 C35,10 5,25 -10,-10 Z" fill="url(#mintGrad)" />
+    
+    <!-- Mortar & Pestle Minimalist Silhouette -->
+    <path d="M-22,-4 C-22,18 22,18 22,-4 Z" fill="url(#goldGrad)" />
+    <line x1="-12" y1="-18" x2="14" y2="4" stroke="#FAF7F0" stroke-width="4" stroke-linecap="round" />
+  </g>
+  
+  <!-- Corner Apothecary Dot Accent -->
+  <circle cx="100" cy="100" r="12" fill="#FF7A59" />
+  <circle cx="412" cy="412" r="12" fill="#A8D5BA" />
+</svg>

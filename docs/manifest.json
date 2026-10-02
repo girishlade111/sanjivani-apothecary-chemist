@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "Sanjivani Apothecary & Chemist",
+  "short_name": "Sanjivani",
+  "description": "24x7 licensed medical dispensary & wellness store in Pune, India. Genuine medicines & express doorstep delivery.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF7F0",
+  "theme_color": "#0B5D57",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
