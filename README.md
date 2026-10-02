@@ -274,3 +274,9 @@ Please run `npm run lint` before submitting.
 ## License
 
 This project is provided as an example/demo application. Add a `LICENSE` file of your choice if you plan to distribute it.
+
+---
+
+<p align="center">
+  <strong>Built by <a href="https://github.com/girishlade111">Girish Lade</a></strong> • Part of <a href="https://ladestack.in">LadeStack</a>
+</p>
